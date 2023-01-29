@@ -2,24 +2,24 @@ import { faker } from '@faker-js/faker'
 
 function ComponentOne(props) {
     return (
-            <div class="card">
-                <div class="content">
-                    <img class="right floated mini ui image" src={faker.image.avatar()} alt="alt" />
-                    <div class="header">
+            <div className="card">
+                <div className="content">
+                    <img className="right floated mini ui image" src={faker.image.avatar()} alt="alt" />
+                    <div className="header">
                         {props.name}
                     </div>
-                    <div class="meta">
+                    <div className="meta">
                         {props.friend}
                     </div>
-                    <div class="description">
+                    <div className="description">
                         {props.content}
                     </div>
                 </div >
             
-            <div class="extra content">
-                <div class="ui two buttons">
-                    <div class="ui basic green button">Approve</div>
-                    <div class="ui basic red button">Decline</div>
+            <div className="extra content">
+                <div className="ui two buttons">
+                    <div className="ui basic green button">Approve</div>
+                    <div className="ui basic red button">Decline</div>
                 </div>
             </div></div>
     )
